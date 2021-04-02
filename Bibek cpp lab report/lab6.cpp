@@ -33,7 +33,7 @@
      num1.readData();
      cout<<"Second complex number "<<endl;
      num2.readData();
-     sum=sum.adding(num1,num2);
+     sum = sum.adding(num1,num2);
      sum.display();
      return 0;
  }
