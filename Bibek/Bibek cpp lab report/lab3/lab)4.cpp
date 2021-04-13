@@ -5,9 +5,10 @@ calculate area of each rectangle and triangle.*/
 using namespace std;
 class Polygon
 { 
-    public:
+    protected:
     int length_height;
     int breadth;
+    public:
     void readData()
     {
         cout<<"Enter length/height : ";
