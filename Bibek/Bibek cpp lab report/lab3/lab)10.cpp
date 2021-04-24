@@ -5,6 +5,7 @@ template<class T>
 class addition
 {
     T num1,num2;
+    T total;
     public:
     addition(T a,T b)
     {
@@ -12,7 +13,6 @@ class addition
         num2 = b;
     }
     T sum(){
-        T total;
         total = num1 +num2;
         cout<<"The sum  of two numbers is "<<total<<endl;
         return 0;
