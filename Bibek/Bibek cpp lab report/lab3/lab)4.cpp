@@ -20,9 +20,9 @@ class Polygon
 class Rectangle: public Polygon
 {
     public:
+    int rect;
     void area()
     {
-        int rect;
         readData();
         rect = length_height * breadth;
         cout<<"The area of rectangle is : "<<rect<<" m^2"<<endl;
@@ -31,12 +31,12 @@ class Rectangle: public Polygon
 class Triangle: public Polygon
 {
     public:
+    float tri;
     void area()
     {
-        float tri;
         readData();
         tri = 0.5*(length_height * breadth);
-        cout<<"The area of trianngle is : "<<tri<<" m^2"<<endl;
+        cout<<"The area of triangle is : "<<tri<<" m^2"<<endl;
     }
 };
 int main()

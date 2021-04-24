@@ -22,9 +22,9 @@ class Triangle:public Figure
 {
     public:
     Triangle(int length_height,int width):Figure(length_height,width){}
+    int total;
     void Area()
     {
-        int total;
         total = 0.5*(dim1*dim2);
         cout<<"The area of the triangle is "<<total<<" m^2"<<endl;
     }
@@ -34,9 +34,9 @@ class Rectangle: public Figure
 
     public:
     Rectangle(int length_height,int width):Figure(length_height,width){}
+    int sum;
     void Area()
     {
-        int sum;
         sum = dim1*dim2;
         cout<<"The area of rectangle is "<<sum<<" m^2"<<endl;
     }

@@ -11,7 +11,7 @@ void divide(int x,int y){
     }
     catch(int num)
     {
-        cout<<"Excetion caught.The divisor is "<<num<<endl;
+        cout<<"Exception caught.The divisor is "<<num<<endl;
         cout<<"Numbers cannot be divided by zero!!";
     }
 }
